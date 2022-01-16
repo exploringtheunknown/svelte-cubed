@@ -98,7 +98,7 @@
 	/** @type {Array<() => void>}*/
 	const before_render = [];
 
-	const root = set_root({
+	export const root = set_root({
 		canvas: null,
 		scene: null,
 		renderer: null,
