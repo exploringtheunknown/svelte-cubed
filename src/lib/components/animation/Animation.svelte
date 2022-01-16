@@ -25,7 +25,7 @@
 	}
 
 	$: {
-		action.weight = weight;
+		if (action) action.weight = weight;
 
 		mixer.timeScale = timeScale;
 		mixer.setTime(time);
