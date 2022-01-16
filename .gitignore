@@ -8,3 +8,4 @@ node_modules
 /static/glTF-Sample-Models
 /package
 /scratch
+/.idea
