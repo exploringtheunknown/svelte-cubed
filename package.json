@@ -1,5 +1,5 @@
 {
-	"name": "svelte-cubed",
+	"name": "@queenslab/svelte-cubed",
 	"version": "0.2.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
