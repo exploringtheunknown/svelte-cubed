@@ -1,3 +1,5 @@
+[![Node.js Package](https://github.com/exploringtheunknown/svelte-cubed/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/exploringtheunknown/svelte-cubed/actions/workflows/npm-publish.yml)
+
 # svelte-cubed
 
 A Three.js component library for Svelte.
