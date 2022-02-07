@@ -8,17 +8,7 @@ on:
     types: [created]
 
 jobs:
-  pnpm:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
-      - run: npm install -g pnpm
-
   publish-npm:
-    needs: pnpm
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -26,6 +16,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+          
+      - run: npm install -g pnpm
       - run: pnpm install
       - run: pnpm release
         env:
